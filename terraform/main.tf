@@ -66,7 +66,7 @@ module "quantichat_prod" {
   control_tower_parameters = {
     AccountEmail              = "prod+main@quantichat.com"
     AccountName               = "QuantiChat-Prod"
-    ManagedOrganizationalUnit = "QuantiChat-PreProd"
+    ManagedOrganizationalUnit = "QuantiChat-Prod"
     SSOUserEmail              = "roshan.giri@adex.ltd"
     SSOUserFirstName          = "Roshan"
     SSOUserLastName           = "AFT"
