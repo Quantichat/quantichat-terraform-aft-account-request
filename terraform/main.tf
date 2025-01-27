@@ -26,7 +26,7 @@ module "quantichat_dev" {
     group = "non-prod"
   }
 
-  account_customizations_name = "Roshan"
+  account_customizations_name = "QuantiChat-Dev"
 }
 
 module "quantichat_stage" {
