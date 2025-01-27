@@ -38,7 +38,7 @@ module "quantichat_stage" {
     ManagedOrganizationalUnit = "QuantiChat-PreProd"
     SSOUserEmail              = "roshan.giri@adex.ltd"
     SSOUserFirstName          = "Roshan"
-    SSOUserLastName           = "AFT"
+    SSOUserLastName           = "Giri"
   }
 
   account_tags = {
@@ -69,7 +69,7 @@ module "quantichat_prod" {
     ManagedOrganizationalUnit = "QuantiChat-Prod"
     SSOUserEmail              = "roshan.giri@adex.ltd"
     SSOUserFirstName          = "Roshan"
-    SSOUserLastName           = "AFT"
+    SSOUserLastName           = "Giri"
   }
 
   account_tags = {
@@ -100,7 +100,7 @@ module "quantichat_devops" {
     ManagedOrganizationalUnit = "QuantiChat-DevOps"
     SSOUserEmail              = "roshan.giri@adex.ltd"
     SSOUserFirstName          = "Roshan"
-    SSOUserLastName           = "AFT"
+    SSOUserLastName           = "Giri"
   }
 
   account_tags = {
