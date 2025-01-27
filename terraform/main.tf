@@ -19,7 +19,7 @@ module "quantichat_dev" {
 
   change_management_parameters = {
     change_requested_by = "DevOps Team"
-    change_reason       = "Account for Quantichat's Development environment"
+    change_reason       = "Account for Quantichat's Development Environment"
   }
 
   custom_fields = {
@@ -50,7 +50,7 @@ module "quantichat_stage" {
 
   change_management_parameters = {
     change_requested_by = "DevOps Team"
-    change_reason       = "Account for Quantichat's Staging environment"
+    change_reason       = "Account for Quantichat's Staging Environment"
   }
 
   custom_fields = {
@@ -81,7 +81,7 @@ module "quantichat_prod" {
 
   change_management_parameters = {
     change_requested_by = "DevOps Team"
-    change_reason       = "Account for Quantichat's Production environment"
+    change_reason       = "Account for Quantichat's Production Environment"
   }
 
   custom_fields = {
