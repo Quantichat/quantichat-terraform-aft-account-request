@@ -14,6 +14,7 @@ module "quantichat_dev" {
     "CreatedBy" = "roshan.giri"
     "Date"      = "27/01/2025"
     "Project"   = "QuantiChat"
+    "CreatedThough" = "AFT"
   }
 
   change_management_parameters = {
