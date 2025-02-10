@@ -5,9 +5,9 @@ module "quantichat_dev" {
     AccountEmail              = "dev+main@quantichat.com"
     AccountName               = "QuantiChat-Dev"
     ManagedOrganizationalUnit = "QuantiChat-PreProd"
-    SSOUserEmail              = "roshan.giri@adex.ltd"
-    SSOUserFirstName          = "Roshan"
-    SSOUserLastName           = "Giri"
+    SSOUserEmail              = "dev+main@quantichat.com"
+    SSOUserFirstName          = "QuantiChat"
+    SSOUserLastName           = "Dev"
   }
 
   account_tags = {
@@ -36,9 +36,9 @@ module "quantichat_stage" {
     AccountEmail              = "stage+main@quantichat.com"
     AccountName               = "QuantiChat-Stage"
     ManagedOrganizationalUnit = "QuantiChat-PreProd"
-    SSOUserEmail              = "roshan.giri@adex.ltd"
-    SSOUserFirstName          = "Roshan"
-    SSOUserLastName           = "Giri"
+    SSOUserEmail              = "stage+main@quantichat.com"
+    SSOUserFirstName          = "QuantiChat"
+    SSOUserLastName           = "Stage"
   }
 
   account_tags = {
@@ -67,9 +67,9 @@ module "quantichat_prod" {
     AccountEmail              = "prod+main@quantichat.com"
     AccountName               = "QuantiChat-Prod"
     ManagedOrganizationalUnit = "QuantiChat-Prod"
-    SSOUserEmail              = "roshan.giri@adex.ltd"
-    SSOUserFirstName          = "Roshan"
-    SSOUserLastName           = "Giri"
+    SSOUserEmail              = "prod+main@quantichat.com"
+    SSOUserFirstName          = "QuantiChat"
+    SSOUserLastName           = "Prod"
   }
 
   account_tags = {
@@ -98,9 +98,9 @@ module "quantichat_devops" {
     AccountEmail              = "devops+main@quantichat.com"
     AccountName               = "QuantiChat-DevOps"
     ManagedOrganizationalUnit = "QuantiChat-DevOps"
-    SSOUserEmail              = "roshan.giri@adex.ltd"
-    SSOUserFirstName          = "Roshan"
-    SSOUserLastName           = "Giri"
+    SSOUserEmail              = "devops+main@quantichat.com"
+    SSOUserFirstName          = "QuantiChat"
+    SSOUserLastName           = "DevOps"
   }
 
   account_tags = {
